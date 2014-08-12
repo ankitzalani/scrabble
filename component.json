@@ -1,0 +1,14 @@
+{
+  "name": "scrabble",
+  "repo": "ankitzalani/scrabble",
+  "description": "A framework which organizes layout of application dynamically.",
+  "keywords": [],
+  "version": "1.0.00",
+  "main": "scrabble.js",
+  "scripts": [
+    "scrabble.js"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": ""
+}
