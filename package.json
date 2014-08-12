@@ -1,0 +1,54 @@
+{
+  "name": "scrabble",
+  "version": "1.0",
+  "description": "A framework which organizes layout of application dynamically ",
+  "keywords": [],
+  "homepage": "https://github.com/ankitzalani/scrabble",
+  "author": {
+    "name": "Ankit Zalani"
+    "url": "https://github.com/ankitzalani/scrabble"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankitzalani/scrabble.git"
+  },
+  "main": "index.js",
+  "browserify": "scrabble.js",
+  "jspm": {
+    "main": "scrabble",
+    "shim": {
+      "d3": {
+        "exports": "scrabble"
+      }
+    },
+    "files": [
+      "scrabble.js"
+    ],
+    "buildConfig": {
+      "uglify": true
+    }
+  },
+  "jam": {
+    "main": "scrabble.js",
+    "shim": {
+      "exports": "scrabble"
+    }
+  },
+  "spm": {
+    "main": "scrabble.js"
+  },
+  "dependencies": {
+    "jsdom": "0.5.7"
+  },
+  "devDependencies": {
+    "smash": "~0.0.12",
+    "uglify-js": "2.4.0",
+    "vows": "0.7.0",
+    "seedrandom": "2.3.1"
+  },
+  "scripts": {
+    "test": "vows; echo"
+  },
+  "licenses": []
+}
