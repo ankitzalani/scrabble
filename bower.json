@@ -1,0 +1,23 @@
+{
+  "name": "scrabble-js",
+  "description": "A framework which organizes layout of application dynamically",
+  "version": "1.0",
+  "main": [
+    "./scrabble.js"
+  ],
+  "ignore": [
+    "doc",
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/ankitzalani/scrabble",
+  "authors": [
+    "Ankit Zalani <ankit.littlegenius@gmail.com>"
+  ],
+  "keywords": [],
+  "license": "Ankit Zalani"
+}
