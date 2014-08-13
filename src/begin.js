@@ -1,2 +1,2 @@
 !function(){
-  var scrabble = {version: "1.0.00"}; 
+	var scrabble = {version: "1.0.00"}; 
