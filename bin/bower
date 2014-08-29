@@ -1,6 +1,10 @@
-{
+#!/usr/bin/env node
+
+var fs = require("fs");
+
+console.log(JSON.stringify({
   "name": "scrabble",
-  "version": "1.0.0",
+  "version": require("../package.json").version,
   "main": "scrabble.js",
   "scripts": [
     "scrabble.js"
@@ -21,4 +25,4 @@
     "src",
     "test"
   ]
-}
+}, null, 2));

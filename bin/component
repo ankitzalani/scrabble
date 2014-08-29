@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var fs = require("fs"),
+    package = require("../package.json");
+
+console.log(JSON.stringify({
+  "name": "scrabble",
+  "repo": "mbostock/scrabble",
+  "description": package.description,
+  "keywords": package.keywords,
+  "version": package.version,
+  "main": "scrabble.js",
+  "scripts": [
+    "scrabble.js"
+  ],
+  "dependencies": {},
+  "development": {}
+}, null, 2));
